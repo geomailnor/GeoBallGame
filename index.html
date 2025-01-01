@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balls</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,=">
+</head>
+<body>
+    <div id="cont">
+        <h1>Да поиграем на „Магнитни топки“</h1>
+        <h3 class="myH3">Управление - с бутони <span id="ijkm">I, J, K, M</span>.</h3>
+        <h3 class="myH3" id="vtoriH3">Паузиране на играта - с бутон '<span id="dumaPauza">ПАУЗА</span>'</h3>
+        <div>
+            
+            <input type="radio" id="easy" name="trudnost" checked>
+            <label for="easy">лесно</label><br>
+            <input type="radio" id="medium" name="trudnost">
+            <label for="medium">средно</label><br>
+            <input type="radio" id="hard" name="trudnost">
+            <label for="hard">трудно</label>
+        </div>      
+        
+        <button id="button" type="button">Старт</button>
+    </div>
+    
+    <canvas id="gameCanvas"></canvas>
+    <div id="infoBar">Информация: 0 точки</div>
+        <button id="restartButton">Рестарт</button>
+    <script src="scropt0.js"></script>
+</body>
+</html>
