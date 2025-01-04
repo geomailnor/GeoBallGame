@@ -366,8 +366,8 @@ function drawGame() {
                     // Премахване на част от опашката
                     playerBall.attachedBalls.splice(attachedIndex);
                     zakacheni = playerBall.attachedBalls.length;
-                    updateInfoBar();
                     playMoveSound(zvukCortar);
+                    updateInfoBar();
                 }
             });
             let buffer = 4;
